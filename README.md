@@ -3,14 +3,14 @@
 
 ---
 
-## 📂 1. Repository Link
+## 1. Repository Link
 
 Full project code repository (GitHub/Drive):  
 **https://github.com/sassy2711/SoftwareTestingProject**
 
 ---
 
-## 📝 2. Project Overview
+## 2. Project Overview
 
 This project implements a **Course Management System** in Python and applies **Mutation Testing** at both:
 
@@ -29,7 +29,7 @@ Mutation testing is performed using a **custom AST-based mutation framework** wi
 
 ---
 
-## 🧪 3. Test Case Strategy Used
+## 3. Test Case Strategy Used
 
 From the course’s required testing strategies, this project uses:
 
@@ -48,7 +48,7 @@ Mutants are strongly killed when test assertions detect behavioral differences.
 
 ---
 
-## 🧬 4. Mutation Testing Details
+## 4. Mutation Testing Details
 
 Mutation testing is implemented using custom AST transformations.
 
@@ -78,7 +78,7 @@ Mutation testing is implemented using custom AST transformations.
 
 ---
 
-### 📊 Mutation Execution Summary
+### Mutation Execution Summary
 
 Surviving mutants include:
 
@@ -95,7 +95,7 @@ After adding BVA tests, the mutation score improved from ~60% to **78.26%**.
 
 ---
 
-## 🧪 5. Designed Test Cases
+## 5. Designed Test Cases
 
 All test cases are located in the `tests/` directory:
 
@@ -125,7 +125,7 @@ A total of **47 test cases** are implemented.
 
 ---
 
-### 📈 Coverage Summary
+### Coverage Summary
 
 The project achieves an overall coverage of **98.09%**:
 
@@ -152,7 +152,7 @@ This satisfies the structural testing requirement of the project and demonstrate
 
 ---
 
-## ▶ 7. How to Run the Project
+## 7. How to Run the Project
 
 ### **1. Create environment**
 
@@ -186,7 +186,7 @@ python -m mutation.run_mutation_tests
 
 ---
 
-## 📦 8. Included Files (For Submission ZIP)
+## 8. Included Files (For Submission ZIP)
 
 Your compressed file should contain:
 
@@ -204,7 +204,7 @@ Repository link       – Insert your GitHub/hosted repo link
 
 ---
 
-## 🏁 9. Conclusion
+## 9. Conclusion
 
 This project demonstrates:
 
