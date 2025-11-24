@@ -1,4 +1,4 @@
-# 📘 Course Management System – Mutation Testing Project  
+#  Course Management System – Mutation Testing Project  
 *Software Testing (ST) – Course Project*
 
 ---
@@ -33,17 +33,17 @@ Mutation testing is performed using a **custom AST-based mutation framework** wi
 
 From the course’s required testing strategies, this project uses:
 
-### **✔ Equivalence Class Partitioning (ECP)**  
+### ** Equivalence Class Partitioning (ECP)**  
 Used for designing tests around valid and invalid inputs (e.g., score ranges, GPA computation, repository insertion rules).
 
-### **✔ Boundary Value Analysis (BVA)**  
+### ** Boundary Value Analysis (BVA)**  
 Applied to grade thresholds (90, 80, 70, 60), course capacity limits, and student year/senior status.
 
-### **✔ Structural Testing using PyTest Coverage Reports**  
+### ** Structural Testing using PyTest Coverage Reports**  
 - Achieved **91%+ total coverage**
 - Achieved **100% coverage** for several modules
 
-### **✔ Mutation Testing (Strong Mutation)**  
+### ** Mutation Testing (Strong Mutation)**  
 Mutants are strongly killed when test assertions detect behavioral differences.
 
 ---
@@ -140,7 +140,7 @@ This satisfies the structural testing requirement of the project and demonstrate
 
 ---
 
-## 🛠 6. Open-Source Tools Used
+##  6. Open-Source Tools Used
 
 | Purpose | Tool |
 |--------|------|
