@@ -1,4 +1,4 @@
-# 📘 Course Management System – Mutation Testing Project  
+#  Course Management System – Mutation Testing Project  
 *Software Testing (ST) – Course Project*
 
 ---
@@ -33,17 +33,17 @@ Mutation testing is performed using a **custom AST-based mutation framework** wi
 
 From the course’s required testing strategies, this project uses:
 
-### **✔ Equivalence Class Partitioning (ECP)**  
+### **Equivalence Class Partitioning (ECP)**  
 Used for designing tests around valid and invalid inputs (e.g., score ranges, GPA computation, repository insertion rules).
 
-### **✔ Boundary Value Analysis (BVA)**  
+### **Boundary Value Analysis (BVA)**  
 Applied to grade thresholds (90, 80, 70, 60), course capacity limits, and student year/senior status.
 
-### **✔ Structural Testing using PyTest Coverage Reports**  
+### **Structural Testing using PyTest Coverage Reports**  
 - Achieved **91%+ total coverage**
 - Achieved **100% coverage** for several modules
 
-### **✔ Mutation Testing (Strong Mutation)**  
+### **Mutation Testing (Strong Mutation)**  
 Mutants are strongly killed when test assertions detect behavioral differences.
 
 ---
@@ -99,15 +99,16 @@ After adding BVA tests, the mutation score improved from ~60% to **78.26%**.
 
 All test cases are located in the `tests/` directory:
 
-tests/
-│── unit/
-│ ├── test_models.py
-│ ├── test_grading.py
-│ ├── test_enrollment.py
-│ ├── test_reporting.py
-│ └── test_repository.py
-└── integration/
-└── test_end_to_end.py
+tests/<br>
+│── unit/<br>
+│ ├── test_models.py<br>
+│ ├── test_grading.py<br>
+│ ├── test_enrollment.py<br>
+│ ├── test_reporting.py<br>
+│ └── test_repository.py<br>
+└── integration/<br>
+└── test_end_to_end.py<br>
+
 
 
 Tests cover:
@@ -140,7 +141,7 @@ This satisfies the structural testing requirement of the project and demonstrate
 
 ---
 
-## 🛠 6. Open-Source Tools Used
+##  6. Open-Source Tools Used
 
 | Purpose | Tool |
 |--------|------|
