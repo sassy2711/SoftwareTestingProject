@@ -216,3 +216,18 @@ This project demonstrates:
 - Complete automation of testing and mutation pipeline  
 
 This fully satisfies the Software Testing Project requirements.
+
+
+---
+
+## 10. Member Contributions
+
+This project was completed collaboratively with equal contribution from both members.
+
+| Member | Contribution Summary |
+|--------|-----------------------|
+| **Sourav M Dileep** | Implemented core application modules, designed unit & integration tests, created mutation operators (unit + integration level), executed mutation testing, improved test suite for higher mutation score, handled coverage analysis, and prepared documentation. |
+| **Shashwat Chaturvedi** | Implemented repository & enrollment logic, developed comprehensive test cases, integrated AST-based mutation framework, optimized mutant generation pipeline, performed debugging and test enhancement, managed project structure, and contributed to documentation. |
+
+**Both members contributed 50–50** toward coding, testing, debugging, mutation analysis, and report preparation.
+
