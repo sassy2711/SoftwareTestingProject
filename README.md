@@ -6,7 +6,7 @@
 ## 📂 1. Repository Link
 
 Full project code repository (GitHub/Drive):  
-**👉 [INSERT YOUR LINK HERE]**
+**https://github.com/sassy2711/SoftwareTestingProject**
 
 ---
 
