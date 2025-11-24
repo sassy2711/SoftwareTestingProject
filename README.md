@@ -99,7 +99,7 @@ After adding BVA tests, the mutation score improved from ~60% to **78.26%**.
 
 All test cases are located in the `tests/` directory:
 
-tests/
+tests/<br>
 │── unit/
 │ ├── test_models.py
 │ ├── test_grading.py
@@ -109,7 +109,6 @@ tests/
 └── integration/
 └── test_end_to_end.py
 
-tests/ ├── unit/ │ ├── test_models.py │ ├── test_grading.py │ ├── test_enrollment.py │ ├── test_reporting.py │ └── test_repository.py └── integration/ └── test_end_to_end.py
 
 
 Tests cover:
