@@ -231,3 +231,12 @@ This project was completed collaboratively with equal contribution from both mem
 
 **Both members contributed 50–50** toward coding, testing, debugging, mutation analysis, and report preparation.
 
+
+---
+
+## 11. Use of AI
+
+- For adding and improving comments in the source code.  
+- For restructuring and refining the README/documentation.
+
+
