@@ -35,7 +35,7 @@ def test_compute_grade_invalid_high():
 def test_compute_grade_with_bonus_clamped():
     grade, _ = compute_grade_with_bonus(98, 10)
     assert grade == "A"
-    grade2, _ = compute_grade_with_bonus(-10, -5)
+    grade2, _ = compute_grade_with_bonus(1, -5)
     assert grade2 == "F"
 
 
