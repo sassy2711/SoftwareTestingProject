@@ -189,7 +189,7 @@ python -m mutation.run_mutation_tests
 
 ## 8. Included Files (For Submission ZIP)
 
-Your compressed file should contain:
+The submission file contains:
 
 ```
 /app                  – Application source code
