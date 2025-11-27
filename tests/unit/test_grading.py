@@ -67,19 +67,6 @@ def test_compute_grade_boundaries():
     assert compute_grade(60)[0] == "D"
     assert compute_grade(59)[0] == "F"
 
-def test_compute_grade_boundaries():
-    # Exactly on boundaries
-    assert compute_grade(90)[0] == "A"
-    assert compute_grade(80)[0] == "B"
-    assert compute_grade(70)[0] == "C"
-    assert compute_grade(60)[0] == "D"
-
-    # Just below boundaries
-    assert compute_grade(89)[0] == "B"
-    assert compute_grade(79)[0] == "C"
-    assert compute_grade(69)[0] == "D"
-    assert compute_grade(59)[0] == "F"
-
 
 def test_compute_grade_with_bonus_negative_and_positive():
     # Big negative bonus should not drop below 0
